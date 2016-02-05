@@ -1,8 +1,7 @@
 # Create a class called Movie
-class Movie():
+class Movie:
     """This module provides a way to store movie-related information."""
 
-    # Initialize a movie object
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube, lead_actors, release_date, box_office):
         """This class returns a movie object.
